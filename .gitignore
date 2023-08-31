@@ -1,15 +1,5 @@
-<<<<<<< HEAD
-# Node
-/node_modules
-=======
-# build output
-dist/
-# generated types
-.astro/
-
 # dependencies
 node_modules/
->>>>>>> 363b677c00e45b85bb05cd334d388d49e35e1a99
 
 # logs
 npm-debug.log*
@@ -17,7 +7,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-<<<<<<< HEAD
 # build output
 dist/
 .output/
@@ -48,12 +37,8 @@ dist/
 # System files
 .DS_Store
 Thumbs.db
-=======
 
 # environment variables
 .env
 .env.production
 
-# macOS-specific files
-.DS_Store
->>>>>>> 363b677c00e45b85bb05cd334d388d49e35e1a99
