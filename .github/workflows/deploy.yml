@@ -40,5 +40,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "astro-wp"
-          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts" # 📝 Update the entrypoint if necessary
+          entrypoint: server/entry.mjs
           root: "dist"
