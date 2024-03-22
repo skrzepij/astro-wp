@@ -10,10 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/deno": "^5.0.1",
-    "@astrojs/mdx": "^2.2.0",
+    "@astrojs/deno": "git+https://github.com/denoland/deno-astro-adapter.git",
+    "@astrojs/mdx": "^2.2.1",
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.1",
-    "astro": "^4.5.1"
+    "astro": "^4.5.9"
   }
 }
