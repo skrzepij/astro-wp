@@ -6,13 +6,15 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs",
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^2.2.0",
+    "@astrojs/db": "^0.9.4",
+    "@astrojs/deno": "github:denoland/deno-astro-adapter",
+    "@astrojs/mdx": "^2.2.1",
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.1",
-    "astro": "^4.5.1"
+    "astro": "^4.5.9"
   }
 }
