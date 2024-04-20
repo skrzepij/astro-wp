@@ -34,6 +34,7 @@ jobs:
           version: latest
 
       - name: Build step
+        # remove '--no-frozen-lockfil' after denoland/astro-deploy is updated in package.json
         run: "pnpm install --no-frozen-lockfile && pnpm build"
 
       - name: Upload to Deno Deploy
