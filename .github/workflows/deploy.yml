@@ -34,7 +34,7 @@ jobs:
           version: latest
 
       - name: Build step
-        run: "pnpm install && pnpm build"
+        run: "pnpm install --no-frozen-lockfile && pnpm build"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
